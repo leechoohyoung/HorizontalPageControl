@@ -1,0 +1,22 @@
+{
+  "name": "HorizontalPageControl",
+  "version": "0.1.0",
+  "summary": "A short description of HorizontalPageControl.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/4285647/HorizontalPageControl",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "4285647": "leechoohyoung@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/4285647/HorizontalPageControl.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "HorizontalPageControl/Classes/**/*"
+}

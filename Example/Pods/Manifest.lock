@@ -1,0 +1,16 @@
+PODS:
+  - HorizontalPageControl (0.1.0)
+
+DEPENDENCIES:
+  - HorizontalPageControl (from `../`)
+
+EXTERNAL SOURCES:
+  HorizontalPageControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HorizontalPageControl: ad1349126e20dde65a85823b8bf3de0eaa9be426
+
+PODFILE CHECKSUM: 23240527cf22ad731df4f2bc8407cb6d791d324e
+
+COCOAPODS: 1.15.2

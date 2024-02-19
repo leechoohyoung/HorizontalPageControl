@@ -1,0 +1,6 @@
+framework module HorizontalPageControl {
+  umbrella header "HorizontalPageControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -22,7 +22,7 @@ pod 'HorizontalPageControl'
 
 ## Author
 
-4285647, leechoohyoung@gmail.com
+leechoohyoung@gmail.com
 
 ## License
 

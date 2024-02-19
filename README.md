@@ -23,6 +23,23 @@ it, simply add the following line to your Podfile:
 pod 'HorizontalPageControl'
 ```
 
+## Usage
+
+```
+var body: some View {
+    let config = ...
+    HorizontalPageControl(config: ...) {
+        // implement your views here
+    }
+    .onPageChanged { oldValue, newValue in
+        print("oldValue:\(oldValue), newValue:\(newValue)")
+    }
+    .onIndicatorTouched { scrollViewProxy, index in
+        print("you can scroll to specific page programmatically via scrollViewProxy:\(scrollViewProxy), index:\(index)")
+    }
+}
+```
+
 ## Author
 
 leechoohyoung@gmail.com

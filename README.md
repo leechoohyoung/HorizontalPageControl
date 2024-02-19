@@ -11,8 +11,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-iOS 17.0
-Swift 5
+iOS 17.0, Swift 5
 
 ## Installation
 

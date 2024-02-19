@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HorizontalPageControl'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HorizontalPageControl.'
+  s.summary          = 'Simple Horizontal Page Control written SwiftUI.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,16 +18,31 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Simple Horizontal Page Control written SwiftUI.
+```
+var body: some View {
+    let config = ...
+    HorizontalPageControl(config: ...) {
+        // implement your views here
+    }
+    .onPageChanged { oldValue, newValue in
+        print("oldValue:\(oldValue), newValue:\(newValue)")
+    }
+    .onIndicatorTouched { scrollViewProxy, index in
+        print("you can scroll to specific page programmatically via scrollViewProxy:\(scrollViewProxy), index:\(index)")
+    }
+}
+```
                        DESC
 
   s.homepage         = 'https://github.com/leechoohyoung/SimpleHorizontalPageControl'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = 'leechoohyoung@gmail.com'
-  s.source           = { :git => 'https://github.com/leechoohyoung/SimpleHorizontalPageControl', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/leechoohyoung/HorizontalPageControl.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.swift_version = '5.0'
   s.ios.deployment_target = '17.0'
 
   s.source_files = 'HorizontalPageControl/Classes/**/*'

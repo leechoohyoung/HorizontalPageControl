@@ -24,7 +24,7 @@ pod 'HorizontalPageControl'
 
 ## Usage
 
-```
+```swift
 var body: some View {
     let config = ...
     HorizontalPageControl(config: ...) {

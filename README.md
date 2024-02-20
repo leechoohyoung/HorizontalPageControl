@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/HorizontalPageControl.svg?style=flat)](https://cocoapods.org/pods/HorizontalPageControl)
 [![Platform](https://img.shields.io/cocoapods/p/HorizontalPageControl.svg?style=flat)](https://cocoapods.org/pods/HorizontalPageControl)
 
+## Demo
+![DemoGIF](https://private-user-images.githubusercontent.com/4285647/306146808-3c6ef523-c2e4-481d-9e57-959503bcdea4.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDg0MDc5NjEsIm5iZiI6MTcwODQwNzY2MSwicGF0aCI6Ii80Mjg1NjQ3LzMwNjE0NjgwOC0zYzZlZjUyMy1jMmU0LTQ4MWQtOWU1Ny05NTk1MDNiY2RlYTQuZ2lmP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDIyMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDAyMjBUMDU0MTAxWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MWQwNTI3MjIzZjkxYmIzMzY4NGNkMDRhNTFiZWM0ZDRhMWU2OGY1MGE5MWM0OWMzZGVkN2VmOGE3MjlhZTdmOCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.seH3qV09AXFV_03hSBYSpfrfLEHi4__l1cedXSpWUk8)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DBEEE512B843E8D00D2ADE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBEEE502B843E8D00D2ADE4 /* ContentView.swift */; };
+		1DBEEE532B843EA600D2ADE4 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBEEE522B843EA600D2ADE4 /* ContentViewModel.swift */; };
+		1DBEEE552B84531000D2ADE4 /* HorizontalPageControlWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBEEE542B84531000D2ADE4 /* HorizontalPageControlWrapper.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,6 +32,9 @@
 
 /* Begin PBXFileReference section */
 		11BD46B5AFDF58984E5912D3 /* Pods-HorizontalPageControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalPageControl_Example.release.xcconfig"; path = "Target Support Files/Pods-HorizontalPageControl_Example/Pods-HorizontalPageControl_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1DBEEE502B843E8D00D2ADE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1DBEEE522B843EA600D2ADE4 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		1DBEEE542B84531000D2ADE4 /* HorizontalPageControlWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalPageControlWrapper.swift; sourceTree = "<group>"; };
 		3D31A7E5E40FFFE54822BB79 /* Pods-HorizontalPageControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalPageControl_Tests.release.xcconfig"; path = "Target Support Files/Pods-HorizontalPageControl_Tests/Pods-HorizontalPageControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		41E4F8EF48EDB55386E48102 /* Pods_HorizontalPageControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalPageControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C9966B62A20BDAD5E65A2B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -93,6 +99,9 @@
 		607FACD21AFB9204008FA782 /* Example for HorizontalPageControl */ = {
 			isa = PBXGroup;
 			children = (
+				1DBEEE522B843EA600D2ADE4 /* ContentViewModel.swift */,
+				1DBEEE502B843E8D00D2ADE4 /* ContentView.swift */,
+				1DBEEE542B84531000D2ADE4 /* HorizontalPageControlWrapper.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -331,8 +340,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DBEEE552B84531000D2ADE4 /* HorizontalPageControlWrapper.swift in Sources */,
+				1DBEEE532B843EA600D2ADE4 /* ContentViewModel.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				1DBEEE512B843E8D00D2ADE4 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

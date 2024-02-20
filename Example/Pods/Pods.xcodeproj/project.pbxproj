@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		13E2DD9B0D32D35DAEE35EE3DA4759F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1DBEEE4D2B836A7800D2ADE4 /* CirclePageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBEEE4C2B836A7800D2ADE4 /* CirclePageIndicator.swift */; };
+		1DBEEE4F2B836AC800D2ADE4 /* HorizontalPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBEEE4E2B836AC800D2ADE4 /* HorizontalPageControl.swift */; };
 		254843634632C2EE95965CCDE5983427 /* HorizontalPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE017D111C6C9D332E5A943B98ED5DC2 /* HorizontalPageControl-dummy.m */; };
 		3F8BA6EB364E6DE2745BB78A73A16116 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		54F45AE6946795E68D34A60C19A612B1 /* HorizontalPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BA66C13A299BB383DEFFB676AA1A6F7 /* HorizontalPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		755EAF4F735DED48DD694BD7D2452DDD /* Pods-HorizontalPageControl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 455CAA8751E9F9B6E38899F4B90E36FD /* Pods-HorizontalPageControl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78C1D623BAF054D897092F245679B20E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED76EEF5BCCC1BAFD32C0D812375DC5 /* ReplaceMe.swift */; };
+		78C1D623BAF054D897092F245679B20E /* PageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED76EEF5BCCC1BAFD32C0D812375DC5 /* PageIndicator.swift */; };
 		8283E3007608B2477B6CCCEE11DDCC21 /* Pods-HorizontalPageControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 183B944B949107BF1B014EDBB132F436 /* Pods-HorizontalPageControl_Example-dummy.m */; };
 		B82EAF425AF77501A3455A34E9239B9A /* Pods-HorizontalPageControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16CB64B2A520319EAC30E1AFBB1300AD /* Pods-HorizontalPageControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0BA9BB02FC140D59F91CB9295DCE0C9 /* Pods-HorizontalPageControl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD01FFC2E5F0AABC063B0A0451FD32 /* Pods-HorizontalPageControl_Tests-dummy.m */; };
@@ -44,12 +46,14 @@
 		186A49F7E4F2596DD8F24C1CD5DD01EB /* Pods_HorizontalPageControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalPageControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1B339CB21D673260D9EB4E36A4BD89 /* HorizontalPageControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HorizontalPageControl-Info.plist"; sourceTree = "<group>"; };
 		1CAC644CCD8D4E54B8E3AB0544F157C4 /* Pods-HorizontalPageControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HorizontalPageControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1DBEEE4C2B836A7800D2ADE4 /* CirclePageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclePageIndicator.swift; sourceTree = "<group>"; };
+		1DBEEE4E2B836AC800D2ADE4 /* HorizontalPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalPageControl.swift; sourceTree = "<group>"; };
 		3FB3AF320FDB7B8A0CFCD11EACFB454A /* Pods-HorizontalPageControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalPageControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		455CAA8751E9F9B6E38899F4B90E36FD /* Pods-HorizontalPageControl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HorizontalPageControl_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4831C21315C7CB6EA3186FDB08EA1463 /* Pods-HorizontalPageControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HorizontalPageControl_Example.modulemap"; sourceTree = "<group>"; };
 		593FB7367A4C51B2F1CC796FA2644DD0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		651B6B7852635D4E8F4198231A599572 /* HorizontalPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HorizontalPageControl.modulemap; sourceTree = "<group>"; };
-		6ED76EEF5BCCC1BAFD32C0D812375DC5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HorizontalPageControl/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		6ED76EEF5BCCC1BAFD32C0D812375DC5 /* PageIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageIndicator.swift; path = HorizontalPageControl/Classes/PageIndicator.swift; sourceTree = "<group>"; };
 		72F4A168FE0096650A1F491FC9E26D05 /* HorizontalPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HorizontalPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7A038EDC110992B0CC096D54848A31F2 /* HorizontalPageControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HorizontalPageControl.release.xcconfig; sourceTree = "<group>"; };
@@ -112,7 +116,9 @@
 		3AC141D5B4E5CEA619AEE11910370651 /* HorizontalPageControl */ = {
 			isa = PBXGroup;
 			children = (
-				6ED76EEF5BCCC1BAFD32C0D812375DC5 /* ReplaceMe.swift */,
+				1DBEEE4C2B836A7800D2ADE4 /* CirclePageIndicator.swift */,
+				1DBEEE4E2B836AC800D2ADE4 /* HorizontalPageControl.swift */,
+				6ED76EEF5BCCC1BAFD32C0D812375DC5 /* PageIndicator.swift */,
 				EFD6278BC014FC9BD2A220268EAF9611 /* Pod */,
 				B01FB1FE5C85DE91259CA609BA4D614B /* Support Files */,
 			);
@@ -368,7 +374,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				254843634632C2EE95965CCDE5983427 /* HorizontalPageControl-dummy.m in Sources */,
-				78C1D623BAF054D897092F245679B20E /* ReplaceMe.swift in Sources */,
+				1DBEEE4D2B836A7800D2ADE4 /* CirclePageIndicator.swift in Sources */,
+				1DBEEE4F2B836AC800D2ADE4 /* HorizontalPageControl.swift in Sources */,
+				78C1D623BAF054D897092F245679B20E /* PageIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

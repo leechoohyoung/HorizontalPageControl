@@ -1,5 +1,4 @@
 import XCTest
-import HorizontalPageControl
 
 class Tests: XCTestCase {
     
